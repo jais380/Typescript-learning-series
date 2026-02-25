@@ -34,6 +34,6 @@ function describeUserWithInOperator(u: Admin | Customer) {
 }
 
 //array of unions and union of arrays
-const arrOfUnion: (string | number)[]= ["a",1,"b","2"]
+const arrOfUnion: (string | number)[]= ["a",1,"b","2"];
 
-const unionOfArrays: string[] | number[] = Math.random() > 0.1 ? ["x", "y"] : [1, 2]
+const unionOfArrays: string[] | number[] = Math.random() > 0.1 ? ["x", "y"] : [1, 2];
